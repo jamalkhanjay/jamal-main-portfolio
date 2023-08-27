@@ -263,9 +263,14 @@
     height: unset;
     flex-direction: column-reverse;
 
+    > a > svg {
+      bottom: 20%;
+    }
+
     > section {
       &:first-of-type {
         @include fc-all-c;
+        padding: 0;
 
         > div {
           border: none;
