@@ -1,0 +1,100 @@
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: $color1;
+  @include fr-ai-c;
+  justify-content: space-between;
+  padding: 0 $p;
+  position: sticky;
+  top: 0%;
+  z-index: 60;
+  // box-shadow: 0px 0px 5px rgba(10, 10, 10, 0.3);
+  > h2 > a {
+    font-size: 2rem;
+    color: black;
+  }
+  > div {
+    display: flex;
+    // align-items: center;
+    gap: 2rem;
+    > a {
+      color: $color6;
+      font-weight: 500;
+      transition: all 0.3s;
+      letter-spacing: 1px;
+      &:hover {
+        color: $color3;
+      }
+    }
+  }
+  > a > button {
+    border: 1px solid $color6;
+    padding: 0.5rem 2.25rem;
+    background-color: $color1;
+    color: $color6;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    &:hover {
+      background-color: $color6;
+      color: $color4;
+      transition: all 0.5s;
+    }
+  }
+
+  > button {
+    border: none;
+    background-color: transparent;
+    color: $color6;
+    font-size: 1.5rem;
+    display: none;
+    &:hover {
+      color: $color3;
+    }
+  }
+}
+
+.navPhone {
+  transition: all 0.5s;
+
+  transform: translateX(200%); //by defualt it wil be at the top
+  @include fc-all-c;
+  width: 100%;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: $p_base;
+  position: fixed;
+  top: 10%;
+  right: 0%;
+  z-index: 100;
+  gap: 3rem;
+
+  > h2 {
+    display: none;
+  }
+
+  > div {
+    @include fc-all-c;
+    gap: 2rem;
+
+    > a {
+      color: $color4;
+      letter-spacing: 3px;
+    }
+  }
+  > a > button {
+    background-color: $color1;
+    padding: 0.5rem 2rem;
+    letter-spacing: 3px;
+    border: none;
+    &:hover {
+      background-color: $color6;
+      color: $color4;
+      border: none;
+    }
+  }
+}
+
+.navPhoneComes {
+  transform: translateX(0);
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,700;1,900&display=swap");
+
+@import "static";
+@import "header";
+@import "home";
+@import "animation";
+@import "work";
+@import "timeline";
+@import "services";
+@import "contact";
+@import "footer";
+@import "mediaquery.scss";
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: $text2;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $color1;
+  overflow-x: hidden;
+}
+
+.disableBtn {
+  background-color: rgb(237, 237, 237);
+  cursor: not-allowed;
+}
