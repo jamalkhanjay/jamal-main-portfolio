@@ -389,8 +389,9 @@
     bottom: 20%;
   }
 }
+
 @media screen and (max-width: 361px) {
   #home > a > svg {
-    bottom: 27%;
+    display: none;
   }
 }
