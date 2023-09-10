@@ -296,12 +296,19 @@
           }
 
           article {
-            width: 100%;
+            width: 80%;
             align-items: center;
-            &::after {
-              top: 0%;
-              left: 0%;
-            }
+            background-color: white;
+            @include flex-column;
+            gap: 5px;
+            padding: 20px 0;
+            // &::after {
+            //   top: 0%;
+            //   left: 0%;
+            // }
+          }
+          article[data-special] {
+            width: 80%;
           }
         }
       }

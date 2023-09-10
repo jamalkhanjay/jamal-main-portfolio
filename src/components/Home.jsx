@@ -5,7 +5,6 @@ import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/my-logo.png";
 
 const Home = () => {
-  const clientsCount = useRef(null);
   const projectsCount = useRef(null);
 
   // Animation of counting the Projects value
