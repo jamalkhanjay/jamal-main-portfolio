@@ -14,7 +14,7 @@ export const Work = () => {
             showIndicators={false}
             showStatus={false}
             showThumbs={false}
-            interval={2000}
+            interval={10000}
             infiniteLoop={true}
             autoPlay={true}
           >
