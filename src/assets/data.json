@@ -1,16 +1,8 @@
 {
   "projects": [
     {
-      "date": "12/04/2024",
-      "title": "1. Glitzy Store",
-      "description": "Glitzy Store is an e-commerce store which Developer through Tailwind + React with some good animations.",
-      "url": "https://glitzy-store.vercel.app/",
-      "imgSrc": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-
-    {
       "date": "01/02/2024",
-      "title": "2. Amal Raj (Client Portfolio)",
+      "title": "1. Amal Raj (Client Portfolio)",
       "description": "I designed and developed a captivating portfolio website using React, SASS, and Framer Motion, showcasing the client's creations with stunning animations and dynamic image galleries.",
       "url": "https://www.amalrajdesigns.com/",
       "imgSrc": "https://s3da-design.com/wp-content/uploads/2022/02/Architects-1024x1024.jpg"
@@ -18,7 +10,7 @@
 
     {
       "date": "11/08/2023",
-      "title": "3. Self Info HUB",
+      "title": "2. Self Info HUB",
       "description": "Self Info Hub, is a simple project for my portfolio. My first project with some good layouts and different themes. It is responsive mostly on all screens.",
       "url": "https://first-info-project-jamalkhanwazir.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
@@ -26,7 +18,7 @@
 
     {
       "date": "18/08/2023",
-      "title": "4. Crypto HUB",
+      "title": "3. Crypto HUB",
       "description": "Crypto Hub, a second poject for portfolio in which I used API's of CoinGego exchange to fetch the data about different top exchanges and top coins in the World. It's responsive too.",
       "url": "https://crypto-hub-6le1go6jp-jamalkhanwazir.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
@@ -34,7 +26,7 @@
 
     {
       "date": "25/08/2022",
-      "title": "5. PORTFOLIO",
+      "title": "4. PORTFOLIO",
       "description": "The main PORTFOLIO project, in this project I have used different concepts and some special effects. A cool looking project in my point of view.",
       "url": "/",
       "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"

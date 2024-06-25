@@ -9,7 +9,7 @@ const Home = () => {
 
   // Animation of counting the Projects value
   const animationProjectsCount = () => {
-    animate(0, 10, {
+    animate(0, 3, {
       duration: 1,
       onUpdate: (val) => (projectsCount.current.textContent = val.toFixed()),
     });
