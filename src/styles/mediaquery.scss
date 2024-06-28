@@ -1,9 +1,13 @@
 @media screen and (max-width: 1495px) {
   #projects {
-    padding-top: 15rem;
-    > section > article {
-      width: 85%;
-    }
+    padding-top: 10rem;
+    // > section > article {
+    //   width: 85%;
+    // }
+  }
+
+  #timeline {
+    height: 110vh;
   }
 }
 

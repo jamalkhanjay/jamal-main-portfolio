@@ -12,14 +12,14 @@ export const Work = () => {
         <article>
           {data.projects.map((element) => (
           
-            <div key={element.title} className="projects-card">
+            <a href={element.url} key={element.title} className="projects-card">
               <img src={element.imgSrc} alt={element.title} />
               <div className="project-title-more">
                 <h3>{project_counter++}. {element.title}</h3>
                 <p>{element.description}</p>
-                <a href={element.url}>View Demo</a>
+                <a href={element.url}>Live Preview</a>
               </div>
-            </div>
+            </a>
           ))}
 
           {/* <Carousel 

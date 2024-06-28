@@ -8,7 +8,7 @@
     width: fit-content;
     border-bottom: 1px solid $color6_1;
     padding: 0.5rem;
-    margin: 60px auto 0 auto;
+    margin: 10rem auto 0 auto;
   }
 
   > section {
@@ -57,11 +57,29 @@
           @include flex-column;
           gap: 10px;
 
+          > h3 {
+            color: $color5;
+          }
+
           > p {
-            font: 100 $text1, $text2;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: $color5;
             // letter-spacing: 3px;
             // line-height: 180%;
             // margin: 1rem;
+          }
+
+          > a {
+            background-color: $color3;
+            padding: 0.7rem 2rem;
+            margin: 1rem auto;
+            border-radius: 5px;
+            color: $color4;
+            transition: all 0.5s;
+            &:hover {
+              background-color: $color3_1;
+            }
           }
         }
       }

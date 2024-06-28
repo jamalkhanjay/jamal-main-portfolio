@@ -3,7 +3,7 @@
     {
       "date": "12/04/2024",
       "title": "Glitzy Store",
-      "description": "Glitzy Store is an e-commerce store which Developer through Tailwind + React with some good animations.",
+      "description": "Glitzy Store is a sleek e-commerce platform, expertly developed using Tailwind CSS and React, featuring stunning animations for an enhanced user experience.",
       "url": "https://glitzy-store.vercel.app/",
       "imgSrc": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -11,7 +11,7 @@
     {
       "date": "01/02/2024",
       "title": " Raj (Client Portfolio)",
-      "description": "I designed and developed a captivating portfolio website using React, SASS, and Framer Motion, showcasing the client's creations with stunning animations and dynamic image galleries.",
+      "description": "I designed and developed a captivating portfolio website using React, SASS, and Framer Motion, with best animations and dynamic image galleries.",
       "url": "https://www.amalrajdesigns.com/",
       "imgSrc": "https://plus.unsplash.com/premium_photo-1661310182788-32e1d5596227?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -19,7 +19,7 @@
     {
       "date": "11/08/2023",
       "title": "Self Info HUB",
-      "description": "Self Info Hub, is a simple project for my portfolio. My first project with some good layouts and different themes. It is responsive mostly on all screens.",
+      "description": "Self Info Hub is a portfolio project showcasing my initial work, featuring unique layouts, multiple themes, and responsive design across various screens.",
       "url": "https://first-info-project-jamalkhanwazir.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
     },
