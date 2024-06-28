@@ -1,10 +1,10 @@
 @media screen and (max-width: 1495px) {
-  #projects {
-    padding-top: 10rem;
+  // #projects {
+    // padding-top: 10rem;
     // > section > article {
     //   width: 85%;
     // }
-  }
+  // }
 
   #timeline {
     height: 110vh;
@@ -12,13 +12,13 @@
 }
 
 @media screen and (max-width: 1281px) {
-  #projects {
-    padding: 15rem $p_md 8rem $p_md;
-    > section > article {
-      width: 80%;
+  // #projects {
+    // padding: 15rem $p_md 8rem $p_md;
+    // > section > article {
+      // width: 80%;
       //   height: 30vmax;
-    }
-  }
+    // }
+  // }
 
   #services {
     padding: $p_base;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 1176px) {
+@media screen and (max-width: 1177px) {
   nav {
     padding-left: $p_md;
     padding-right: $p_md;
@@ -43,15 +43,15 @@
   }
 
   #projects {
-    padding-left: $p_sm;
-    padding-right: $p_sm;
+    // padding-left: $p_sm;
+    // padding-right: $p_sm;
 
     > section > article {
-      height: 30vmax;
+      // height: 30vmax;
 
-      .workItem {
-        height: 30vmax;
-      }
+      // .workItem {
+      //   height: 30vmax;
+      // }
     }
   }
 }
@@ -73,16 +73,21 @@
   }
 
   #projects > section > article {
-    height: 35vmax;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
-    .workItem {
-      height: 35vmax;
-      > aside > p {
-        letter-spacing: 2px;
-        line-height: 150%;
-        margin: 0.75rem;
-      }
+    .projects-card > .project-title-more > a {
+      display: none;
     }
+    // height: 35vmax;
+
+    // .workItem {
+    //   height: 35vmax;
+    //   > aside > p {
+    //     letter-spacing: 2px;
+    //     line-height: 150%;
+    //     margin: 0.75rem;
+    //   }
+    // }
   }
 }
 
@@ -98,7 +103,11 @@
   }
 
   #home {
-    height: 80vh;
+    // height: 80vh;
+
+    > a > svg {
+      font-size: 2rem;
+    }
 
     > section:first-of-type {
       padding-left: $p_base;
@@ -132,12 +141,28 @@
   }
 
   #projects > section > article {
-    height: 40vmax;
-    width: 90%;
+    // height: 40vmax;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    // width: 90%;
+    .projects-card > .project-title-more {
+      > h3 {
+        font-size: smaller;
+      }
 
-    .workItem {
-      height: 40vmax;
-    }
+      > p {
+        display: none;
+      }
+
+      > a {
+        display: block;
+        padding: 5px 10px;
+        font-size: smaller;
+      }
+    } 
+
+    // .workItem {
+    //   height: 40vmax;
+    // }
   }
 
   #services {
@@ -210,9 +235,16 @@
     }
   }
 
-  #home > a > svg {
-    font-size: 2.5rem;
-  }
+  #home {
+    > section:first-of-type > div {
+      padding-top: 2rem;
+    }
+
+    > a > svg {
+      font-size: 2.5rem;
+    }
+    
+  } 
 
   #projects {
     // height: 115vh;
@@ -222,10 +254,10 @@
     }
 
     > section {
-      height: 110%;
+      // height: 110%;
 
       > article {
-        height: 45vmax;
+        // height: 45vmax;
 
         .workItem {
           height: 45vmax;
@@ -324,7 +356,12 @@
 
   #projects {
     padding-top: 1rem;
-    height: 100vh;
+    // height: 100vh;
+
+    > section > article {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
   }
 
   #timeline {
@@ -377,7 +414,7 @@
   #projects {
     > section {
       > article {
-        width: 95%;
+        // width: 95%;
         .workItem > aside {
           > p {
             letter-spacing: 0;

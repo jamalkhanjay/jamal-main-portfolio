@@ -7,6 +7,8 @@ import {
 } from "react-icons/ai";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer>
       <div>
@@ -16,7 +18,7 @@ const Footer = () => {
         />
 
         <h2>M. Jamal Khan</h2>
-        <p>© 2023 Jamal, Inc. All rights reserved.
+        <p>© {currentYear} Jamal, Inc. All rights reserved.
 </p>
       </div>
 

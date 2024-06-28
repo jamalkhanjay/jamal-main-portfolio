@@ -1,6 +1,6 @@
 #home {
   width: 100%;
-  height: 90vh;
+  // height: 90vh;
   display: flex;
 
   > section {
@@ -25,7 +25,7 @@
         > div {
           @include fr-ai-c;
           margin: 5rem 0;
-          width: 70%;
+          width: 80%;
           gap: 4rem;
           > a {
             &:first-of-type {
