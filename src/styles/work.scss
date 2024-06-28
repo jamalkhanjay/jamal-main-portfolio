@@ -1,7 +1,7 @@
 #projects {
   width: 100%;
-  height: 130vh;
-  padding: 8rem 0;
+  // height: 130vh;
+  // padding: 8rem 0;
 
   > h2 {
     font: 700 2.5rem $text2;
@@ -14,50 +14,94 @@
   > section {
     margin-top: 3rem;
     width: 100%;
-    height: 100%;
+    // height: 100%;
     background-color: $color5;
-    @include fr-all-c;
+    // display: flex;
+    // justify-content: center;
 
     > article {
-      width: 70%;
-      height: 25vmax;
+      // width: 70%;
+      // @include fr-all-c;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      align-items: normal;
+      // flex-wrap: wrap;
+      // height: 25vmax;
+      gap: 2rem;
+      padding: 3rem 4rem;
 
-      .workItem {
-        overflow-y: auto;
-        height: 25vmax;
-        width: 95%;
-        margin: auto;
-        background-color: $color4;
-        display: flex;
-        padding: 2rem;
-        box-shadow: 0 0 20px 5px $color1;
+      .projects-card {
+        max-width: 20rem;
+        // height: 50%;
+        // box-shadow: 0px 0px 5px $color4;
+        background-color: $color1;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: all 0.3s;
+        // padding: ;
 
-        > img {
-          border-radius: 20px;
-          width: 40%;
-          object-fit: cover;
+        &:hover {
+          box-shadow: 0px 0px 10px $color4;
+          transform: scale(1.03);
         }
 
-        > aside {
-          width: 60%;
-          @include fc-all-c;
+        > img {
+          border-radius: 10px;
+          max-width: 100%;
+          object-fit: fill;
+        }
+
+        > .project-title-more {
+          padding: 1rem;
+          @include flex-column;
+          gap: 10px;
+
           > p {
-            letter-spacing: 3px;
-            line-height: 180%;
-            margin: 1rem;
-          }
-          > a {
-            background-color: $color3;
-            padding: 0.7rem 2rem;
-            margin: 1rem;
-            color: $color4;
-            transition: all 0.5s;
-            &:hover {
-              background-color: $color3_1;
-            }
+            font: 100 $text1, $text2;
+            // letter-spacing: 3px;
+            // line-height: 180%;
+            // margin: 1rem;
           }
         }
       }
+
+      // .workItem {
+      //   overflow-y: auto;
+      //   height: 25vmax;
+      //   width: 95%;
+      //   margin: auto;
+      //   background-color: $color4;
+      //   display: flex;
+      //   padding: 2rem;
+      //   box-shadow: 0 0 20px 5px $color1;
+
+      //   > img {
+      //     border-radius: 20px;
+      //     width: 40%;
+      //     object-fit: cover;
+      //   }
+
+      //   > aside {
+      //     width: 60%;
+      //     @include fc-all-c;
+      //     > p {
+      //       letter-spacing: 3px;
+      //       line-height: 180%;
+      //       margin: 1rem;
+      //     }
+      //     > a {
+      //       background-color: $color3;
+      //       padding: 0.7rem 2rem;
+      //       margin: 1rem;
+      //       color: $color4;
+      //       transition: all 0.5s;
+      //       &:hover {
+      //         background-color: $color3_1;
+      //       }
+      //     }
+      //   }
+      // }
     }
   }
 }

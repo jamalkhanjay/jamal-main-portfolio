@@ -4,25 +4,25 @@ import data from "../assets/data.json";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const Work = () => {
+  let project_counter = 1;
   return (
     <div id="projects">
       <h2>Projects</h2>
       <section>
         <article>
-          {/* {
-            data.projects.map((element) => (
-              <div key={element.title}>
-                <img src={element.imgSrc} alt={element.title} />
-                <div>
-                  <h3>{element.title}</h3>
-                  <p>{element.description}</p>
-                  <a href={element.url}>View Demo</a>
-                </div>
+          {data.projects.map((element) => (
+          
+            <div key={element.title} className="projects-card">
+              <img src={element.imgSrc} alt={element.title} />
+              <div className="project-title-more">
+                <h3>{project_counter++}. {element.title}</h3>
+                <p>{element.description}</p>
+                <a href={element.url}>View Demo</a>
               </div>
-            ))
-            } */}
+            </div>
+          ))}
 
-          <Carousel 
+          {/* <Carousel 
             // showArrows={false}
             showIndicators={false}
             showStatus={false}
@@ -43,7 +43,7 @@ export const Work = () => {
                 </aside>
               </div>
             ))}
-          </Carousel>
+          </Carousel> */}
         </article>
       </section>
     </div>
