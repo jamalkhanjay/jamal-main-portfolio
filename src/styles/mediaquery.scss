@@ -42,18 +42,6 @@
     letter-spacing: 3px;
   }
 
-  #projects {
-    // padding-left: $p_sm;
-    // padding-right: $p_sm;
-
-    > section > article {
-      // height: 30vmax;
-
-      // .workItem {
-      //   height: 30vmax;
-      // }
-    }
-  }
 }
 
 @media screen and (max-width: 962px) {
@@ -78,16 +66,6 @@
     .projects-card > .project-title-more > a {
       display: none;
     }
-    // height: 35vmax;
-
-    // .workItem {
-    //   height: 35vmax;
-    //   > aside > p {
-    //     letter-spacing: 2px;
-    //     line-height: 150%;
-    //     margin: 0.75rem;
-    //   }
-    // }
   }
 }
 
@@ -436,10 +414,15 @@
   #home > a > svg {
     bottom: 20%;
   }
+  
+  #timeline {
+    height: unset;
+  }
 }
+
 
 @media screen and (max-width: 361px) {
   #home > a > svg {
-    display: none;
+    bottom: 10%;
   }
 }
